@@ -10,7 +10,7 @@
 .parallax {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), url(img/coffee4.jpg);
-  background-size: 1350px;
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 700px;
 }
@@ -24,6 +24,7 @@ header {
   animation-duration: 4s;
   background-color: rgba(0, 0, 0, 0.72);
   color: white;
+  position: absolute;
 }
 
 header ul {
