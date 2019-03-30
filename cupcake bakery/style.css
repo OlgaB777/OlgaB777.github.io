@@ -439,3 +439,271 @@ footer p {
 .social-media i {
   color: #93215a;
 }
+
+media screen and (max-width:768px) {
+  body {
+    margin: auto 0;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 300%;
+    height: auto;
+    width: 100%
+  }
+
+  h2 {
+    font-size: 220%;
+  }
+
+  h3 {
+    font-size: 150%
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+
+  #logo {
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fcd7e521;
+  }
+
+  .about-us h2 {
+    font-size: 180%
+  }
+
+  .about-us p {
+    font-size: 150%
+  }
+
+  #menu {
+    height: 500px;
+  }
+
+  #ad {
+    background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
+  }
+
+  .text-one {
+    line-height: 1.2
+  }
+
+  form {
+    line-height: 1
+  }
+
+  .parallax1 {
+    background-image: none
+  }
+
+  .parallax3 {
+    background-image: none;
+  }
+
+  footer {
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .social-media {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  body {
+    margin: auto 0;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 100%;
+    height: auto;
+    width: 100%
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+  h3 {
+    font-size: 80%
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+
+  #logo {
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fcd7e521;
+  }
+
+  #logo ul {
+    margin: 1%;
+  }
+
+  #menu {
+    height: auto;
+  }
+
+  .about-us h2 {
+    font-size: 100%
+  }
+
+  .about-us {
+    width: 40%;
+    height: auto;
+  }
+
+  #about-us p {
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    text-align: left;
+  }
+
+  #about-us {
+    height: 400px;
+  }
+
+  #menu {
+    height: auto;
+    flex-direction: row;
+  }
+
+  #menu img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #menu p {
+    font-size: 100%
+  }
+
+  #menu h3 {
+    font-size: 100%
+  }
+
+  .menu {
+    width: auto;
+  }
+
+  #ad {
+    display: block;
+    height: auto;
+  }
+
+  .text-one p {
+    line-height: 1;
+    font-size: 100%;
+    margin: 5%;
+  }
+
+  .parallax1 {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+  }
+
+  .text p {
+    font-size: 100%
+  }
+
+  .text-one {
+    justify-content: flex-start;
+    height: auto;
+    width: 100%
+  }
+
+  .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%
+  }
+
+  ul.contact-us {
+    height: auto;
+  }
+
+  ul.contact-us p {
+    font-size: 100%
+  }
+
+  form {
+    line-height: 1;
+    height: auto;
+  }
+
+  .form-style-1 input[type=text] {
+    width: 100%;
+    padding: 0
+  }
+
+  #ad {
+    /* background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg); */
+    background-size: cover;
+    background-image: none
+  }
+
+  .text ul {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    background-image: url(https://static01.nyt.com/images/2017/04/11/dining/11COOKING-MAGNOLIA-BAKERY3/11COOKING-MAGNOLIA-BAKERY3-videoSixteenByNineJumbo1600.jpg );
+    width: 100%;
+    height: 200px;
+  }
+
+  .social-media {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
+  #form {
+    height: 400px;
+  }
+
+  .parallax3 {
+    height: auto;
+  }
+
+  .parallax1 {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
+  }
+}
