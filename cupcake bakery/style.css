@@ -408,7 +408,6 @@ select {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 300px;
-  background-image: url(https://static01.nyt.com/images/2017/04/11/dining/11COOKING-MAGNOLIA-BAKERY3/11COOKING-MAGNOLIA-BAKERY3-videoSixteenByNineJumbo1600.jpg );
 }
 
 footer {
@@ -419,6 +418,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://static01.nyt.com/images/2017/04/11/dining/11COOKING-MAGNOLIA-BAKERY3/11COOKING-MAGNOLIA-BAKERY3-videoSixteenByNineJumbo1600.jpg );
 }
 
 footer p {
@@ -440,7 +440,7 @@ footer p {
   color: #93215a;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
   body {
     margin: auto 0;
     height: auto;
@@ -524,40 +524,44 @@ footer p {
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
   body {
     margin: auto 0;
     height: auto;
   }
 
   h1 {
-    font-size: 100%;
+    font-size: 150%;
     height: auto;
     width: 100%
   }
 
   h2 {
-    font-size: 120%;
+    font-size: 150%;
   }
 
   h3 {
-    font-size: 80%
+    font-size: 100%
   }
 
   .parallax {
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 150%;
     background-repeat: no-repeat;
-    height: auto;
+    height: 350px;
   }
 
   #logo {
     width: 100%;
-    height: auto;
+    height: 350px;
     background-size: 100%;
     display: flex;
     justify-content: center;
     background-color: #fcd7e521;
+  }
+
+  #logo img {
+    width: 40%
   }
 
   #logo ul {
@@ -603,7 +607,7 @@ footer p {
   }
 
   #menu h3 {
-    font-size: 100%
+    font-size: 120%
   }
 
   .menu {
@@ -615,21 +619,20 @@ footer p {
     height: auto;
   }
 
-  .text-one p {
-    line-height: 1;
-    font-size: 100%;
-    margin: 5%;
+  #ad h2 {
+    font-size: 150%;
+    margin-top: 5%
   }
 
-  .parallax1 {
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 350px;
+  .text-one p {
+    line-height: 1.2;
+    font-size: 140%;
+    margin: 5%;
+    margin-top: 0px
   }
 
   .text p {
-    font-size: 100%
+    font-size: 140%
   }
 
   .text-one {
@@ -640,10 +643,14 @@ footer p {
 
   .text {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     height: auto;
     width: 100%
+  }
+
+  .text ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   ul.contact-us {
@@ -654,9 +661,21 @@ footer p {
     font-size: 100%
   }
 
+  ul.contact-us li {
+    width: 90%
+  }
+
   form {
     line-height: 1;
     height: auto;
+  }
+
+  #form h2 {
+    font-size: 100%
+  }
+
+  #form {
+    height: 400px;
   }
 
   .form-style-1 input[type=text] {
@@ -665,9 +684,8 @@ footer p {
   }
 
   #ad {
-    /* background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg); */
+    background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
     background-size: cover;
-    background-image: none
   }
 
   .text ul {
@@ -679,7 +697,7 @@ footer p {
 
   footer {
     background-image: url(https://static01.nyt.com/images/2017/04/11/dining/11COOKING-MAGNOLIA-BAKERY3/11COOKING-MAGNOLIA-BAKERY3-videoSixteenByNineJumbo1600.jpg );
-    width: 100%;
+    background-size: 100%;
     height: 200px;
   }
 
@@ -689,10 +707,6 @@ footer p {
     display: flex;
     flex-direction: row;
     width: 30%;
-  }
-
-  #form {
-    height: 400px;
   }
 
   .parallax3 {
