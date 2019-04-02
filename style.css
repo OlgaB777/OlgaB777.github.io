@@ -76,7 +76,7 @@ header li a {
   font-size: 25px;
   animation: fadein 3s;
   -webkit-animation: fadein 3s;
-  color: white;
+  color: #fff;
 }
 
 @keyframes fadein {
