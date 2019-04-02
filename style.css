@@ -308,8 +308,7 @@ header img {
   height: 340px;
   transition: .2s ease;
   margin-top: -345px;
-  display: flex;
-  text-align: justify;
+  display: block;
   outline: 3px #fff;
   outline-offset: -15px;
   outline-style: solid;
@@ -320,10 +319,17 @@ header img {
   margin: 30px;
 }
 
-.overlay a {
+.button-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 1;
   color: white;
-  font-size: 18px;
+  font-size: 100%;
+  width: 100%;
+  height: 18%;
+  text-transform: uppercase;
+  background-color: #35413c;
 }
 
 .overlay:hover {
@@ -418,7 +424,11 @@ footer li:hover {
   }
 
   header li a {
-    font-size: 60%;
+    font-size: 75%;
+  }
+
+  header li a h2 {
+    font-size: 130%;
   }
 
   svg {
@@ -429,24 +439,24 @@ footer li:hover {
   }
 
   #about-me {
-    height: 250px;
+    height: 300px;
   }
 
   #about-me h2 {
-    font-size: 150%
+    font-size: 200%
   }
 
   #about-me p {
-    font-size: 100%;
+    font-size: 120%;
   }
 
   #button {
-    width: 20%;
-    height: 10%
+    width: 25%;
+    height: 15%
   }
 
   #button h3 {
-    font-size: 50%
+    font-size: 80%
   }
 
   .more-about-me {
@@ -469,7 +479,7 @@ footer li:hover {
   }
 
   #more-about-me p {
-    font-size: 100%;
+    font-size: 120%;
     margin: 0;
     padding: 0;
     padding-right: 0;
@@ -502,20 +512,29 @@ footer li:hover {
     width: 100%;
     height: 340px;
     transition: .2s ease;
-    margin-top: -345px;
-    display: flex;
-    text-align: justify;
+    margin-top: -343px;
+    display: block;
+    /* text-align: justify; */
     outline: none;
     outline-offset: none;
     outline-style: none;
-    opacity: 0;
+    opacity: 0.5
   }
 
-  .overlay a {
+  .overlay p {
+    margin: 30px;
+    opacity: 1
+  }
+
+  /* .overlay a {
     opacity: 1;
     color: white;
-    font-size: 100%;
-    font-weight: 100;
+    font-size: 18px;
+  } */
+  .overlay:hover {
+    opacity: 0;
+    cursor: pointer;
+    transform: scale(1.0.5);
   }
 
   footer ul li a {
@@ -537,8 +556,8 @@ footer li:hover {
     font-size: 100%
   }
 
-  #contacts p1 {
-    font-size: 50%
+  #contacts p {
+    font-size: 80%
   }
 
   footer li {
