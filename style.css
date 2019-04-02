@@ -108,7 +108,7 @@ header a:hover {
 }
 
 header a:active {
-  color: #4b0b0b;
+  color: #8d8e8d;
 }
 
 header img {
@@ -136,6 +136,7 @@ header img {
   align-items: center;
   text-transform: uppercase;
   transition: 0.5s;
+  font-size: 120%
 }
 
 #button:hover {
@@ -317,6 +318,7 @@ header img {
 
 .overlay p {
   margin: 30px;
+  font-size: 150%;
 }
 
 .button-button {
@@ -325,7 +327,7 @@ header img {
   justify-content: center;
   opacity: 1;
   color: white;
-  font-size: 100%;
+  font-size: 120%;
   width: 100%;
   height: 18%;
   text-transform: uppercase;
@@ -342,17 +344,20 @@ header img {
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 430px;
+  height: 450px;
   background-image: url(https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 footer {
-  font-family: 'Finger Paint', cursive;
-  height: 430px;
+  height: 450px;
   background-size: contain;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 2;
   width: 100%;
   justify-content: center;
+  font-size: 70%
 }
 
 .footer ul {
@@ -399,7 +404,234 @@ footer li:hover {
   font-size: 40px;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:1024px) {
+  body {
+    margin: auto 0;
+    height: auto;
+    width: 100%
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    height: 250px;
+    background-image: url(https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  }
+
+  header {
+    position: relative;
+    height: 250px;
+    background-size: 100%;
+    padding-right: 30px;
+    background-color: #0000004a;
+    text-transform: uppercase;
+  }
+
+  header li a {
+    font-size: 100%;
+  }
+
+  header li a h2 {
+    font-size: 150%;
+  }
+
+  svg {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50%;
+  }
+
+  header a:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 5px 1px 2px #0b0a0a;
+    text-decoration: underline;
+    text-decoration-color: #8d8e8d
+  }
+
+  header a:active {
+    color: #8d8e8d;
+  }
+
+  #about-me {
+    height: 300px;
+  }
+
+  #about-me h2 {
+    font-size: 200%
+  }
+
+  #about-me p {
+    font-size: 150%;
+  }
+
+  #button {
+    width: 25%;
+    height: 15%
+  }
+
+  #button h3 {
+    font-size: 120%
+  }
+
+  .more-about-me {
+    display: block;
+    width: 90%;
+    height: 350px;
+    text-align: justify;
+    margin: auto;
+  }
+
+  #more-about-me {
+    align-self: center;
+    height: 350px;
+  }
+
+  #more-about-me img {
+    width: 50%;
+    height: 100px;
+    padding-left: 25%
+  }
+
+  #more-about-me p {
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  #my-works {
+    height: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+
+  .my-works-sample {
+    width: 80%;
+    height: 340px;
+    padding-top: 1%
+  }
+
+  .my-works-sample img {
+    width: 100%;
+    height: 340px;
+  }
+
+  .overlay {
+    position: absolute;
+    background-color: black;
+    width: 80%;
+    height: 340px;
+    transition: .2s ease;
+    margin-top: -343px;
+    display: block;
+    outline: none;
+    outline-offset: none;
+    outline-style: none;
+    opacity: 0.5
+  }
+
+  .overlay p {
+    margin: 10%;
+    opacity: 1;
+    font-size: 150%;
+    font-weight: 100
+  }
+
+  .button-button {
+    font-size: 150%;
+  }
+
+  .overlay:hover {
+    opacity: 0;
+    cursor: pointer;
+    transform: scale(1.0.5);
+  }
+
+  footer ul li a {
+    display: inline-flex;
+  }
+
+  #contacts {
+    line-height: 1.5;
+  }
+
+  #contacts li a i {
+    width: 5%;
+    height: 5%;
+    font-size: 80%;
+    color: white;
+  }
+
+  #contacts h2 {
+    font-size: 120%
+  }
+
+  #contacts p {
+    font-size: 100%
+  }
+
+  footer li {
+    width: 10%;
+    height: 10%;
+    margin: 2px;
+    transition: 0.2s
+  }
+
+  footer li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+    border-radius: 10px;
+  }
+
+  footer {
+    height: auto;
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .parallax1 {
+    height: 250px;
+  }
+
+  #block {
+    height: auto
+  }
+
+  .container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto
+  }
+
+  .container li {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container li a {
+    font-size: 100%
+  }
+
+  .container li h3 {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width:767px) {
   body {
     margin: auto 0;
     height: auto;
@@ -436,6 +668,18 @@ footer li:hover {
     bottom: 0px;
     width: 100%;
     height: 50%;
+  }
+
+  header a:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 5px 1px 2px #0b0a0a;
+    text-decoration: underline;
+    text-decoration-color: #8d8e8d
+  }
+
+  header a:active {
+    color: #8d8e8d;
   }
 
   #about-me {
@@ -514,7 +758,6 @@ footer li:hover {
     transition: .2s ease;
     margin-top: -343px;
     display: block;
-    /* text-align: justify; */
     outline: none;
     outline-offset: none;
     outline-style: none;
@@ -523,14 +766,10 @@ footer li:hover {
 
   .overlay p {
     margin: 30px;
-    opacity: 1
+    opacity: 1;
+    font-size: 120%
   }
 
-  /* .overlay a {
-    opacity: 1;
-    color: white;
-    font-size: 18px;
-  } */
   .overlay:hover {
     opacity: 0;
     cursor: pointer;
@@ -580,6 +819,7 @@ footer li:hover {
     display: flex;
     width: 100%;
     justify-content: center;
+    font-size: 50%
   }
 
   .parallax1 {
@@ -610,5 +850,9 @@ footer li:hover {
 
   .container li h3 {
     font-size: 50%;
+  }
+
+  .button-button {
+    font-size: 100%
   }
 }
