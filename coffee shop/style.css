@@ -547,3 +547,97 @@ footer {
     font-size: 130%
   }
 }
+
+@media screen and (max-width:600px) {
+  .hamburger {
+    display: block;
+  }
+
+  #menu {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.72);
+    justify-content: center;
+  }
+
+  #menu-wrap {
+    float: right;
+    font-size: 200%;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.72);
+    position: relative;
+    display: none;
+  }
+
+  #menu-wrap ul li a {
+    color: white;
+  }
+
+  #menu-wrap ul li {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menu-wrap ul li:active {
+    background-color: black
+  }
+
+  #menu ul {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header {
+    display: none
+  }
+
+  body {
+    width: 100%
+  }
+
+  .parallax {
+    height: 600px;
+  }
+
+  .locations ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+
+  .locations li {
+    display: block;
+    font-size: 160%;
+    width: 75%;
+    height: auto;
+  }
+
+  .our-locations {
+    height: auto;
+  }
+
+  #contact-us {
+    background-color: #e6e8f5;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .contact {
+    font-size: 130%
+  }
+
+  .form {
+    font-size: 130%
+  }
+}
