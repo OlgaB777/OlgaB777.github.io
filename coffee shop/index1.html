@@ -25,9 +25,27 @@
 
 
 
+
+    <nav class="hamburger">
+      <div id="menu">
+        <ul>
+          <li> <img src="logo5.svg" width="150" height="150" alt="Coffe House logo, beans and title Coffee House "></li>
+          <li> <i class="fas fa-bars"></i> </li>
+        </ul>
+      </div>
+      <div id="menu-wrap">
+        <ul>
+          <li><a href=" # ">HOME</a></li>
+          <li><a href=" #about Hoffee House ">ABOUT US</a> </li>
+          <li><a href="#locations">OUR LOCATIONS</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
+          <li><a href="careers.html  " target="_blank">CAREERS</a></li>
+          <li><a href="#">ORDER</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <header>
-
-
       <ul>
 
         <li>
@@ -90,8 +108,8 @@
         <li><i class="fas fa-map-marker-alt"></i> <img src="img/coffeeshop2.jpg" alt=""> <b>Address: </b>
           <p> 5 O'Conolly Street, Dublin 1 <b>Tel:</b>+353869577745<br></p><a href="map.html" target="_blank"><button type="button" name="address">Dublin 1</button>
         </li>
-      </ul>
-      <ul>
+
+
         <li><i class="fas fa-map-marker-alt"></i><img src="img/coffeeshop3.jpg" alt=""> <b>Address: </b>
           <p> 12 Parnal Street, Dublin 4 <b>Tel:</b>+353894653145<br></p><a href="map.html" target="_blank"><button type="button" name="address">Dublin 4</button>
         </li>
@@ -177,6 +195,9 @@
     AOS.init({
       duration: 1000,
 
+    });
+    $(" .fas").on("click", function() {
+      $("#menu-wrap ").slideToggle();
     });
   </script>
 

@@ -30,10 +30,6 @@ header {
   text-transform: uppercase;
 }
 
-header h2 {
-  font-size: 150%;
-}
-
 svg {
   position: absolute;
   bottom: 0px;
@@ -73,7 +69,7 @@ header li:nth-of-type(4) {
 header li a {
   color: #0e0202;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 150%;
   animation: fadein 3s;
   -webkit-animation: fadein 3s;
   color: #fff;
@@ -370,25 +366,22 @@ footer ul li a {
   display: inline-flex;
 }
 
-footer li a i {
+.footer li a {
   width: 40px;
   height: 40px;
-  font-size: 40px;
+  font-size: 130%;
   color: white;
 }
 
 footer li {
-  width: 60px;
+  width: 50px;
   height: 50px;
-  margin: 5px;
   transition: 0.2s
 }
 
 footer li:hover {
   cursor: pointer;
-  transform: scale(1.1);
-  transition: 0.2s;
-  border-radius: 10px;
+  transform: rotate(5deg);
 }
 
 #contacts {
