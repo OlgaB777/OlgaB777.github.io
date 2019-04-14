@@ -3,6 +3,7 @@
   padding: 0px;
   font-family: 'Lato', sans-serif;
   list-style: none;
+  text-decoration: none
 }
 
 h3 {
@@ -61,34 +62,8 @@ p {
   height: 80px;
   transition: 0.5s ease-out
 }
-
-/*
-.navigation {
-  background-color: #c9da2987;
-  color: white;
-  display: flex;
-  width: 100%;
-  height: 5%;
-}
-
-.navigation ul {
-  display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: flex-end;
-}
-
-.navigation ul li {
-  margin-right: 2%;
-  line-height: 2;
-}
-
-.navigation ul li:hover {
-  cursor: pointer;
-  background-color: white;
-  color: #bed528
-} */
-.banner {
+ 
+#banner {
   width: 100%;
   height: 660px;
   color: white;
@@ -108,10 +83,10 @@ h1 {
 }
 
 header img {
-  width: 10%;
-  height: 60%;
+  width: 60%;
+  height: 70%;
   border-radius: 10%;
-  margin: 2%
+  margin: 10%
 }
 
 header {
@@ -125,11 +100,13 @@ header {
   position: absolute;
   z-index: 1000
 }
-
+header a{
+  width: 20%
+}
 ul.menu {
   display: flex;
   width: 60%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -137,11 +114,13 @@ ul.menu li {
   display: flex;
   align-items: center;
   height: 20%;
-  width: 20%;
+  /* width: 20%; */
+    color: white;
   display: flex;
   justify-content: center;
   transition: 0.5s
 }
+
 
 ul.menu li:hover {
   cursor: pointer;
@@ -169,22 +148,7 @@ ul.social-media li :hover {
   transition: 0.5s
 }
 
-/*
-.parallax2 {
-  background-image: url(http://hashtag-bg.com/wp-content/uploads/2018/08/fog-forest-background-resume-stock-video-of-misty-mountain-blowing-over-623764.jpg);
-  background-attachment: fixed;
-  background-color: #c7d92a;
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: flex-end;
-} */
-/* .parallax2 img {
-  width: 50%;
-  padding: 5%;
-  float: right;
-position: absolute;
-} */
+ 
 #about-us {
   height: 500px;
   width: 100%;
@@ -390,6 +354,7 @@ position: absolute;
 }
 
 form {
+
   width: 100%;
   height: 520px;
   background-color: #91b2295c;
@@ -412,7 +377,7 @@ input[type=text], select {
   font-size: 100%;
 }
 
-.form {
+#form {
   width: 50%;
   height: 520px;
   display: flex;
