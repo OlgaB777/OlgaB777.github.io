@@ -68,11 +68,11 @@ header li:nth-of-type(4) {
 
 header li a {
   color: #0e0202;
-  font-weight: 900;
   font-size: 150%;
   animation: fadein 3s;
   -webkit-animation: fadein 3s;
   color: #fff;
+  transition: 5s;
 }
 
 @keyframes fadein {
@@ -100,7 +100,8 @@ header a:hover {
   color: white;
   text-shadow: 5px 1px 2px #0b0a0a;
   text-decoration: underline;
-  text-decoration-color: #8d8e8d
+  text-decoration-color: #8d8e8d;
+  transition: 5s;
 }
 
 header a:active {
@@ -193,9 +194,10 @@ header img {
 }
 
 #more-about-me img {
-  width: 30%;
+  width: 27%;
   height: 90%;
   padding-right: 5%;
+  filter: sepia(2);
 }
 
 .container {
@@ -300,21 +302,17 @@ header img {
 
 .overlay {
   position: absolute;
-  background-color: black;
   width: 440px;
   height: 340px;
   transition: .2s ease;
   margin-top: -345px;
   display: block;
-  outline: 3px #fff;
-  outline-offset: -15px;
-  outline-style: solid;
-  opacity: 0;
+  opacity: 0
 }
 
 .overlay p {
   margin: 30px;
-  font-size: 150%;
+  font-size: 130%;
 }
 
 .button-button {
@@ -324,16 +322,25 @@ header img {
   opacity: 1;
   color: white;
   font-size: 120%;
-  width: 100%;
+  width: 40%;
   height: 18%;
   text-transform: uppercase;
-  background-color: #35413c;
+  background-color: #35413cb0;
+  margin-top: 120px;
+  margin-left: 30%;
+  transition: 0.3s
+}
+
+.button-button:hover {
+  background-color: #afafaf8c;
+  transition: 0.3s
 }
 
 .overlay:hover {
-  opacity: 0.6;
+  opacity: 1;
   cursor: pointer;
   transform: scale(1.0.5);
+  background-color: #0000004f
 }
 
 .parallax1 {
@@ -472,19 +479,19 @@ footer li:hover {
   .more-about-me {
     display: block;
     width: 90%;
-    height: 350px;
+    height: auto;
     text-align: justify;
     margin: auto;
   }
 
   #more-about-me {
     align-self: center;
-    height: 350px;
+    height: 650px;
   }
 
   #more-about-me img {
     width: 50%;
-    height: 100px;
+    height: auto;
     padding-left: 25%
   }
 
@@ -706,12 +713,12 @@ footer li:hover {
 
   #more-about-me {
     align-self: center;
-    height: 350px;
+    height: 500px;
   }
 
   #more-about-me img {
     width: 50%;
-    height: 100px;
+    height: auto;
     padding-left: 25%
   }
 
