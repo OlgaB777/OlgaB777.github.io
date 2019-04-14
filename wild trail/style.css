@@ -37,6 +37,8 @@ p {
   left: 0;
   width: 100%;
   transition: 0.5s;
+  height: 160px
+
 }
 
 .fixed:hover {
@@ -119,7 +121,7 @@ header {
   font-size: 150%;
   color: white;
   width: 100%;
-  height: 180px;
+  height: 160px;
   position: absolute;
   z-index: 1000
 }
