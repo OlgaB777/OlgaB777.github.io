@@ -197,7 +197,8 @@ header img {
   width: 27%;
   height: 90%;
   padding-right: 5%;
-  filter: sepia(2);
+  filter: sepia(1);
+  border-radius: 10%
 }
 
 .container {
@@ -856,3 +857,4 @@ footer li:hover {
     font-size: 100%
   }
 }
+ 
