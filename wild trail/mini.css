@@ -75,23 +75,22 @@ height: 50%;
  	justify-content: center;
  	align-items: center;
  	background-color: #91b2295c;
- 	border : 1px solid  #C9DB2D;
+ 	/* border : 1px solid  #C9DB2D; */
 
  }
   ul.submenu li:first-child{
 justify-content: flex-end;
-	align-items: flex-end;
+	 
 	 	background-color: white;
 	 	border : none;
+	 	height: 80px;
   }
  ul.submenu a{
  	font-size: 150%;
  	color: green;
  	transition: 0.9s
  }
- ul.submenu li:visited{
-   background-color: orange
- }
+ 
 ul.submenu i{
  	  		color: #C9DB2D;
  	  		font-size: 250%;
@@ -200,13 +199,13 @@ p {
 }
 .parallax{
 background-attachment: fixed;
-  background-size: 100% 640px;
+  background-size: 100% 620px;
   background-repeat: no-repeat;
-  height: 640px;
+  height: 620px;
  }
 
 #banner{
-	height: 640px;
+	height: 620px;
 	display: flex;
 	justify-content: center;
 
