@@ -11,10 +11,10 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
   </script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
 
 
-  <title>Landing page</title>
+  <title>Wild trail</title>
 </head>
 
 <body>
@@ -23,12 +23,32 @@
 
   <div class="parallax">
 <nav class="menu">
-    <ul>
+    <ul class="mobilemenu" >
         <li><a href="#"> <img src="logo5.jpg" alt=""> </a></li> 
-     <li><a href="#"><i class="fas fa-sort-down"></i></a></li> 
-     <li><a href="#"></a></li> 
-     <li><a href="#"></a></li>
-    </ul>
+     <li ><i class="fas fa-bars" onclick="openNav()"> </i>  </li> 
+     
+       </ul>
+      <div id="submenu">
+         
+        
+   <ul class="submenu"  >
+    <li> <i class="fas fa-times" onclick="closeNav()"></i></li> 
+     <li>  <a href="#about-us"> About us </a></li>
+   <li> <a href="#activities"> Activities </a></li>
+      <li> <a href="#gallery"> Gallery </a></li>
+       <li><a href="#form"> Contacts </a></li>
+</ul>
+       <ul id="social-media" >
+ 
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-twitter-square"></i></li>
+        <li><i class="fab fa-facebook-square"></i></li>
+      </ul>
+  </div>
+    
+   
+      
+
 </nav>
   
     <header> 
@@ -259,6 +279,15 @@
           $("header ").addClass("fixed");
         }
       });
+
+function openNav() {
+  document.getElementById("submenu").style.width = "100%";
+}
+
+function closeNav(){
+  document.getElementById("submenu").style.width = "0";
+}
+
     </script>
 </body>
 

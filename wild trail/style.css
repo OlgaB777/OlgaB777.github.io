@@ -23,7 +23,9 @@ p {
   font-size: 130%;
   text-align: justify;
 }
-
+.menu{
+  display: none;
+}
 .parallax {
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -74,10 +76,11 @@ p {
 
 h1 {
   display: flex;
-  align-self: center;
+   
   justify-content: center;
-  align-content: center;
-  width: 100%;
+  
+  min-width: 100%;
+  height: auto;
   font-size: 350%;
   letter-spacing: 10px;
 }
@@ -129,17 +132,20 @@ ul.menu li:hover {
 }
 
 ul.social-media {
-  width: 40%;
+   min-width: 40%;
+   min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1c5f1a
+  color: #1c5f1a;
+
 }
 
 ul.social-media li {
   margin-right: 5%;
   transition: 0.5s;
-  font-size: 130%
+  font-size: 130%;
+  min-width: 10%
 }
 
 ul.social-media li :hover {
