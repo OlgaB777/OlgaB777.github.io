@@ -460,6 +460,7 @@ ul.social_media li :hover {
   font-size: 80%;
   text-align: center;
   height: auto;
+  margin: 0;
 }
 .parallax2 {
   background-attachment: fixed;
