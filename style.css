@@ -3,32 +3,37 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Ubuntu', sans-serif;
-}
+    font-family: 'Josefin Sans', sans-serif;
+
+ }
 
 body {
   color: white;
   width: 100%;
   height: auto;
-  background-color: white
+  background-color:  white
 }
 
 .parallax {
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% 80%;
   background-repeat: repeat;
   height: 350px;
-  background-image: url(https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+ background-image: url('https://images7.alphacoders.com/437/437370.jpg')
 }
 
 header {
   position: relative;
+  width: 100%;
   height: 350px;
   background-size: 100%;
-  padding-right: 30px;
+  
   background-color: #0000004a;
-  text-transform: uppercase;
+   display: flex;
+   justify-content: flex-end;
+  font-size: 130%
 }
+
 
 svg {
   position: absolute;
@@ -37,44 +42,37 @@ svg {
   height: 50%;
 }
 
-header ul {
+ 
+header ul.menu{
   display: flex;
-  justify-content: space-between;
+  width: 80%;
+  justify-content: space-evenly;
+   
+  margin-top: 5%;
 }
-
-header li {
-  list-style: none;
-  line-height: 900%;
-  display: block;
-}
-
-header li:nth-of-type(1) {
-  padding-top: 0px;
-  padding-left: 20px;
-  float: left;
-}
-
-header li:nth-of-type(2) {
-  padding-top: 80px;
-}
-
-header li:nth-of-type(3) {
-  padding-top: 40px;
-}
-
-header li:nth-of-type(4) {
-  padding-top: 0px;
-}
-
-header li a {
-  color: #0e0202;
-  font-size: 150%;
-  animation: fadein 3s;
-  -webkit-animation: fadein 3s;
+header a{
+ width: 30%;
+  height: 50px;
+  margin: 2%;
+    -webkit-animation: fadein 2s;
   color: #fff;
-  transition: 5s;
+  transition: 0.5s;
 }
 
+header h2{
+font-family: 'Cute Font', cursive;
+    text-decoration: none;
+   font-size: 300%;
+    font-weight: 700;
+  width: 50%;
+   text-align: center;
+   color: white;
+   line-height: 0.7;
+   border: 3px solid white;
+  background-color: #00959fc2;
+   text-shadow:2px 1px 2px #08313A; 
+
+ }
 @keyframes fadein {
   from {
     opacity: 0.1;
@@ -94,15 +92,54 @@ header li a {
     opacity: 1;
   }
 }
+ ul.menu li{
+  height: 50px;
+  width: 20%;
+ 
+ }
+ul.menu li:nth-of-type(1) {
+  padding-top: 90px;
+  
+ }
 
-header a:hover {
+ul.menu li:nth-of-type(2) {
+  padding-top: 60px;
+
+}
+
+ul.menu li:nth-of-type(3) {
+  padding-top: 30px;
+}
+
+ul.menu li:nth-of-type(4) {
+  padding-top: 0px;
+}
+
+ul.menu li a {
+  color: #0e0202;
+  font-size: 160%;
+  animation: fadein 3s;
+  -webkit-animation: fadein 2s;
+  color: #fff;
+  transition: 0.5s;
+  width: 80%;
+    display: flex;
+  justify-content: center;
+  
+ 
+}
+
+ 
+
+ul.menu li:hover {
   cursor: pointer;
   color: white;
-  text-shadow: 5px 1px 2px #0b0a0a;
-  text-decoration: underline;
-  text-decoration-color: #8d8e8d;
-  transition: 5s;
+  text-shadow: 5px 1px 2px #08313A;
+
+  
+ 
 }
+ 
 
 header a:active {
   color: #8d8e8d;
@@ -128,16 +165,19 @@ header img {
   display: flex;
   width: 15%;
   height: 20%;
-  background-color: #35413c;
+  background-color: #08313A;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
   transition: 0.5s;
-  font-size: 120%
+  font-size: 120%;
+  border-radius: 50px;
+  font-family: 'Cute Font', cursive;
 }
 
 #button:hover {
-  background-color: #676e6b;
+  background-color: #1A5653
+;
   cursor: pointer;
   transition: 0.5s
 }
@@ -146,13 +186,7 @@ header img {
   transform: scale(1.1);
 }
 
-#about-me img {
-  height: 150px;
-  width: 100px;
-  transform: rotate(-100deg);
-  position: absolute;
-  margin-right: -50px;
-}
+ 
 
 #about-me h2 {
   color: black;
@@ -197,7 +231,7 @@ header img {
   width: 27%;
   height: 90%;
   margin-right: 5%;
- filter: sepia(1);
+
   border-radius: 50%
 }
 
@@ -243,7 +277,7 @@ header img {
   display: flex;
   width: 20%;
   height: 30%;
-  background-color: #35413c;
+  background-color: #08313A;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -252,7 +286,7 @@ header img {
 }
 
 .button:hover {
-  background-color: #676e6b;
+  background-color: #5CD85A;
   cursor: pointer;
   transition: 0.5s
 }
@@ -308,8 +342,10 @@ header img {
   transition: .2s ease;
   margin-top: -345px;
   display: block;
-  opacity: 0
+  opacity: 0;
+ 
 }
+ 
 
 .overlay p {
   margin: 30px;
@@ -326,10 +362,11 @@ header img {
   width: 40%;
   height: 18%;
   text-transform: uppercase;
-  background-color: #35413cb0;
+  background-color: #08313A;
   margin-top: 120px;
   margin-left: 30%;
-  transition: 0.3s
+  transition: 0.3s;
+  border-radius: 50px;
 }
 
 .button-button:hover {
@@ -340,8 +377,9 @@ header img {
 .overlay:hover {
   opacity: 1;
   cursor: pointer;
-  transform: scale(1.0.5);
-  background-color: #0000004f
+   
+  background-color: #107869;
+  transform: scale(1.03);
 }
 
 .parallax1 {
@@ -349,7 +387,7 @@ header img {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 450px;
-  background-image: url(https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-image: url('https://images7.alphacoders.com/437/437370.jpg')
 }
 
 footer {
@@ -361,7 +399,8 @@ footer {
   line-height: 2;
   width: 100%;
   justify-content: center;
-  font-size: 70%
+  font-size: 100%;
+  background-color: #0000004a
 }
 
 .footer ul {
@@ -403,6 +442,7 @@ footer li:hover {
 
 #contacts h2 {
   font-size: 40px;
+  font-weight: 200;
 }
 
 @media screen and (max-width:1024px) {
