@@ -5,17 +5,35 @@
   list-style: none;
   text-decoration: none
 }
-
+h1 {
+  display: flex;
+font-family: 'Rock Salt', cursive;
+  justify-content: center;
+  
+   width: 50%;
+  height: auto;
+  font-size: 350%;
+  letter-spacing: 10px;
+}
 h3 {
   color: green;
   font-size: 150%;
   text-transform: uppercase;
+
 }
 
 h2 {
   color: white;
-  font-size: 180%;
+  font-size: 200%;
   text-transform: uppercase;
+   
+      letter-spacing: 3px;
+  justify-content: center;
+ font-family: 'Boogaloo', cursive;
+ 
+    background-attachment: fixed;
+
+
 }
 
 p {
@@ -31,7 +49,8 @@ p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 660px;
-  background-image: url(https://avatars.mds.yandex.net/get-pdb/918543/98088538-c28b-422f-8b24-6bb1f181088e/orig);
+  /* background-image: url(https://avatars.mds.yandex.net/get-pdb/918543/98088538-c28b-422f-8b24-6bb1f181088e/orig); */
+  background-image: url('wild2.jpg')
 }
 
 .fixed {
@@ -70,20 +89,13 @@ p {
   height: 660px;
   color: white;
   background-color: #91b2295c;
-  display: block;
-  line-height: 12;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
-  display: flex;
-   
-  justify-content: center;
-  
-  min-width: 100%;
-  height: auto;
-  font-size: 350%;
-  letter-spacing: 10px;
-}
+ 
 
 header img {
   width: 60%;

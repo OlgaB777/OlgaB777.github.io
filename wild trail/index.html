@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="mini.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Boogaloo|Lato|Rock+Salt" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
@@ -67,7 +67,8 @@
       </ul>
     </header>
     <div id="banner">
-      <h1>Discover the world</h1>
+   <!--    <h2>Discover the world with</h2>
+      <h1>WILD TRAIL</h1> -->
     </div>
 
   </div>
@@ -264,15 +265,15 @@
         var sticky = $('header'),
           scroll = $(window).scrollTop();
 
-        if (scroll >= 200) sticky.addClass('fixed');
+        if (scroll >= 150) sticky.addClass('fixed');
 
       });
-      window.onscroll = function() {
-        scrollFunction()
-      };
+      // window.onscroll = function() {
+      //   scrollFunction()
+      // };
 
       $(document).on("scroll", function() {
-        if ($(document).scrollTop() > 400) {
+        if ($(document).scrollTop() > 100) {
           $("header ").addClass("shrink");
         } else {
           $("header ").removeClass("shrink");

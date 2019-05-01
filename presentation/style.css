@@ -1,0 +1,39 @@
+*{
+	list-style: none;
+ 
+}
+
+h2{
+	 color:#0a5084;
+}
+ img{
+ 	width: 100%;
+ }
+body{
+	 margin:0;
+
+	text-decoration: none;
+	font-family: 'Boogaloo', cursive;
+	font-size: 170%;
+	color: #003a65;
+background-color: #0a318438;
+ text-align: center;
+
+}
+ul{ margin-top: 0;
+	width: 100%;
+	padding: 0;
+}
+.photos {
+
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.photos img{
+	width: 49%;
+	height: 400px;
+	margin-top: 2%;
+}
