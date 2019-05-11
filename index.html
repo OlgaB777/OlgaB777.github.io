@@ -1,88 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-  <title>Front-end developer portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="style.css">
- 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
- 
-<link href="https://fonts.googleapis.com/css?family=Cute+Font|Josefin+Sans" rel="stylesheet">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Front-end developer portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mini.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-
 <body>
-
-  <div class="parallax">
-
-    <header>
-
-     
-         <a href="#contacts "><h2>
-             Olga   Bibikova </h2>  </a>
-
- 
-<ul class="menu">
-    
- 
-        <li><a href="#about-me">About me</a></li>
-
-        <li><a href="#my-works">My works</a></li>
-        <li><a href="presentation/index.html">Blog</a></li>
-        <li><a href="#contacts">Contacts</a></li>
- </ul>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon fill="white" points="0,100 100,0 100,100" />
-        </svg>
-
-    </header>
-  </div>
-
-  <div id="about-me">
-    <h2>Hello!</h2><br>
-
-
-    <p>I am a web designer. Here you can see some of my works.<br> All the works are designed and developed by me.</p>
-
-    <div id="button" class="button-container">
-      <h3> Read More</h3>
+    <div class="parallax">
+        <nav class="mobile-menu">
+            <div class="mobile-menu-logo">
+                <ul>
+                    <li><a href="#">
+                            <h2>
+                                Olga Bibikova </h2>
+                        </a></li>
+                    <li><a href="#"></a><i class="fas fa-bars" onclick="openNav()"></i></li>
+                </ul>
+            </div>
+            <div id="submenu">
+                <div class="submenu-logo">
+                    <ul>
+                        <li><a href="#">
+                                <h2>
+                                    Olga Bibikova </h2>
+                            </a></li>
+                        <li> <i class="fas fa-times" onclick="closeNav()"></i></li>
+                </div>
+                <div class="submenu-list"> 
+                  <ul>
+                    
+                    <li><a href="#about-me" onclick="closeNav()">About me</a></li>
+                    <li><a href="#my-works" onclick="closeNav()">My works</a></li>
+                    <li><a href=" #" onclick="closeNav()">Blog</a></li>
+                    <li><a href="#contacts" onclick="closeNav()">Contacts</a></li>
+                     </ul>
+                </div>
+                <div class="social-media">
+                   <ul>
+                    <li><a href="https://github.com/OlgaB777" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="https://vk.com/bibikovaolga" target="_blank"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100006480904928" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                </div>
+        </nav>
+        <header>
+            <a href="#contacts ">
+                <h2>
+                    Olga Bibikova </h2>
+            </a>
+            <ul class="menu">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#my-works">My works</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon fill="white" points="0,100 100,0 100,100" />
+            </svg>
+        </header>
     </div>
-  </div>
-
-  <div id="more-about-me">
-    <div class="more-about-me">
-
-
-      <p>I am Olga, a beginner web designer currently living in Dublin. I have been learning how to cretate and develope web sites for almost a year. Since that time a have got strong comprehension of HTML,CSS programms and continue to fill my
-        knowledge
-        up , developed my portfolio and
-        filled it with ___ completely respnsive websites and landing page. Now I am working on JavaScript learning </p> <br><img src="me1.jpg" alt="">
+    <div id="about-me">
+        <h2>Hello!</h2><br>
+        <p>Welcome to my portfolio. Here you can see some of my works.<br> All the works are designed and developed by me.</p>
+        <div id="button" class="button-container">
+            <h3> Read More</h3>
+        </div>
     </div>
-  </div>
-  <div id="my-works">
-    <div class="my-works-sample">
-      <img src="coffe shop.png" alt="" width="300" height="300">
-      <div class="overlay">
- 
-        <p>This is completely responsive website and almost ready to use. It took me about one  week   to accomplish it.</p>
-        <a href="coffee shop/index1.html">
-          <h3 class="button-button"> Open</h3>
-        </a>
-
- 
-
-      </div>
+    <div id="more-about-me">
+        <div class="more-about-me">
+            <p>I am Olga, a web designer currently living in Dublin. I have been learning how to cretate and develope web sites for almost a year. Since that time a have got strong comprehension of HTML,CSS programms and continue to fill my
+                knowledge
+                up , developed my portfolio and
+                filled it with ___ completely responsive websites and landing page. Now I am working on JavaScript learning </p> <br><img src="me1.jpg" alt="">
+        </div>
     </div>
-
-    <!-- <div class="my-works-sample">
+    <div id="my-works">
+        <div class="my-works-sample">
+            <img src="coffe shop.png" alt="" width="300" height="300">
+            <div class="overlay">
+                <p>This is completely responsive website and almost ready to use. It took me about one week to accomplish it.</p>
+                <a href="coffee shop/index1.html" class="button-button">Open </a>
+               
+            </div>
+        </div>
+        <!-- <div class="my-works-sample">
       <img src="trekking.jpg" alt="">
       <div class="overlay">
         <p>This is completely responsive website and almost ready to use. It took me about one week and a half to accomplish it. </p>
@@ -91,26 +102,24 @@
         </a>
       </div>
     </div> -->
-    <div class="my-works-sample">
-      <img src="cupcake.png" alt="">
-      <div class="overlay">
-        <p>  </p>
-        <a href="cupcake bakery/index.html">
-          <h3 class="button-button"> Open</h3>
-        </a>
-
-      </div>
-    </div>
-    <div class="my-works-sample">
-      <img src="wild trail.png" alt="">
-      <div class="overlay">
-      <p> </p>
-      <a href="wild trail/index.html">
-        <h3 class="button-button"> Open</h3>
-      </a>
-
-      </div>
-<!--     </div>
+        <div class="my-works-sample">
+            <img src="cupcake.png" alt="">
+            <div class="overlay">
+                <p> </p>
+                <a href="cupcake bakery/index.html" 
+                    class="button-button"> Open 
+                </a>
+            </div>
+        </div>
+        <div class="my-works-sample">
+            <img src="wild trail.png" alt="">
+            <div class="overlay">
+                <p> </p>
+                <a href="wild trail/index.html" 
+                    class="button-button"> Open 
+                </a>
+            </div>
+            <!--     </div>
     <div class="my-works-sample">
       <img src="grey.jpg" alt="">
       <div class="overlay">
@@ -128,13 +137,14 @@
         <h3 class="button-button"> Open</h3>
       </a>
   </div> -->
-  </div>
-  </div>
-
-
-
-  <div id="blog" class="container">
-    <ul>
+        </div>
+    </div>
+    <div id="blog" class="container">
+        <h2>People I worked with</h2>
+        <img src="sasha.jpg" alt="">
+        <p> Many thx to Olga for her awesome and fast work with our website. We have an account on Tilda, within 2 days she managed to help us and organize the structure of the website. Now it looks nice and works efficiently 👍 <br> <br>
+            Aleksandra Syrvacheva <br> Entrepreneur</p>
+        <!--  <ul>
       <li><a href="#" target="_blank">Professional blog</a>
 
         <h3 class="button"> More</h3>
@@ -147,40 +157,39 @@
         <h3 class="button"> More</h3>
       </li>
 
-    </ul>
-
-  </div>
-  <div class="parallax1">
-
-
-    <footer>
-
-      <div id="contacts" class="footer">
-        <h2>Contact me at: </h2>
-        <p>+353899695696</p>
-        <p>bibikovaolga777@gmail.com</p>
-        <ul>
-          <li><a href="https://github.com/OlgaB777" target="_blank"><i class="fab fa-github-square"></i></a></li>
-          <li><a href="https://vk.com/bibikovaolga" target="_blank"><i class="fab fa-vk"></i></a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=100006480904928" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-
-        </ul>
-
-
-      </div> <br>
-
-      Copyright © 2019- designed and developed by Olga Bibikova
-    </footer>
-  </div>
-  <script>
+    </ul>-->
+    </div>
+    <div class="parallax1">
+        <footer>
+            <div id="contacts" class="footer">
+                <h2>Contact me at: </h2>
+                <p>+353899695696</p>
+                <p>bibikovaolga777@gmail.com</p>
+                <ul>
+                    <li><a href="https://github.com/OlgaB777" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="https://vk.com/bibikovaolga" target="_blank"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100006480904928" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div> <br>
+            Copyright © 2019- designed and developed by Olga Bibikova
+        </footer>
+    </div>
+    <script>
     $("#button").on("click", function() {
-      $("#more-about-me").slideToggle();
+        $("#more-about-me").slideToggle();
     });
     $("img").blur()
-  </script>
 
 
+    function openNav() {
+        document.getElementById("submenu").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("submenu").style.width = "0";
+    }
+    </script>
 </body>
 
 </html>
