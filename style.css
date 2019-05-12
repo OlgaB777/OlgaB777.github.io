@@ -21,9 +21,11 @@ body {
     height: 350px;
     background-image: url('https://images7.alphacoders.com/437/437370.jpg')
 }
-.mobile-menu  {
-  display: none
+
+.mobile-menu {
+    display: none
 }
+
 header {
     position: relative;
     width: 100%;
@@ -151,24 +153,20 @@ header a:active {
     color: #8d8e8d;
 }
 
-header img {
-    width: 250px;
-    height: 80px;
-    transform: rotate(5deg);
-}
+ 
 
 #about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    height: 350px;
+    height: 300px;
     text-align: center;
     line-height: 1.5
 }
 
 #button {
     display: flex;
+    flex-direction: column;
     width: 15%;
     height: 20%;
     background-color: #08313A;
@@ -176,9 +174,13 @@ header img {
     align-items: center;
     text-transform: uppercase;
     transition: 0.5s;
-    font-size: 120%;
+    font-size: 100%;
     border-radius: 50px;
     font-family: 'Cute Font', cursive;
+}
+
+#button i {
+    font-size: 150%;
 }
 
 #button:hover {
@@ -195,16 +197,16 @@ header img {
 
 #about-me h2 {
     color: #08313a;
-    font-size: 35px;
+    font-size: 250%;
     animation: fadein 3s;
     -webkit-animation: fadein 3s;
 }
 
 #about-me p {
     color: black;
-    font-size: 25px;
+    font-size: 150%;
     animation: fadein 3s;
-    margin: 20px;
+    margin: 2%;
     -webkit-animation: fadein 3s;
 }
 
@@ -216,7 +218,7 @@ header img {
 }
 
 #more-about-me p {
-    width: 70%;
+    width: 100%;
     font-size: 150%;
     color: black;
     line-height: 1.5;
@@ -236,106 +238,8 @@ header img {
     width: 27%;
     height: 90%;
     margin-right: 5%;
-
     border-radius: 50%
 }
-
-.container {
-    color: black;
-    height: 600px;
-    align-items: center;
-    text-align: center;
-
-
-}
-
- 
-
-.container p {
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 150%;
-    line-height: 1.5;
-}
-.container h2{
-        color: #08313a;
-    font-size: 35px;
-    animation: fadein 3s;
-    -webkit-animation: fadein 3s;
-
-}
-/* .container ul {
-  font-size: 30px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  transition: 0.3s;
-  opacity: 0.9;
-  text-align: center;
-  align-items: center;
-}
-
-.container li {
-  width: 100%;
-  height: 80%;
-  background-color: white;
-  border-radius: 20px;
-  margin: 2px;
-  display: flex;
-  flex-direction: column;
-  align-items: center
-}
-
-.container li button {
-  transition: 0.5s;
-  width: 70px;
-  height: 40px;
-}
-
-.button {
-  display: flex;
-  width: 20%;
-  height: 30%;
-  background-color: #08313A;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  font-size: 60%;
-}
-
-.button:hover {
-  background-color: #5CD85A;
-  cursor: pointer;
-  transition: 0.5s
-}
-
-.button:active {
-  transform: scale(1.1);
-}
-
-.container li button:hover {
-  cursor: pointer;
-}
-
-.container li button:active {
-  transform: rotate(-40deg);
-  -moz-transform: rotate(-40deg);
-  -webkit-transform: rotate(-40deg)
-}
-
-.container ul li:hover {
-  transition: 0.3s;
-  opacity: 1;
-}
-
-.container li a {
-  color: black;
-  transition: 0.3s;
-} */
 
 #my-works {
     display: flex;
@@ -344,8 +248,7 @@ header img {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: white;
-    background-color: azure;
+    
 }
 
 .my-works-sample {
@@ -362,11 +265,11 @@ header img {
     position: absolute;
     width: 440px;
     height: 340px;
-    opacity: 0
-;    transition: .2s ease;
+    opacity: 0;
+    transition: .2s ease;
     margin-top: -345px;
-      display: flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 
@@ -374,18 +277,19 @@ header img {
 
 
 .overlay p {
-    margin: 30px;
-    font-size: 130%;
+    margin: 5%;
+    font-size: 150%;
+    line-height: 1.2
 }
 
 .button-button {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     opacity: 0;
     color: white;
     font-size: 120%;
-    width: 40%;
+    width: 50%;
     height: 15%;
     text-transform: uppercase;
     background-color: #08313A;
@@ -393,11 +297,17 @@ header img {
     transition: 0.3s;
     border-radius: 50px;
 }
- 
+.button-button a{
+    color: white;
+}
+.overlay i {
+    font-size: 100%;
+}
+
 .button-button:hover {
     background-color: #afafaf8c;
     transition: 0.3s;
-     
+
 }
 
 .overlay:hover {
@@ -407,18 +317,9 @@ header img {
     transform: scale(1.03);
 }
 
-.parallax1 {
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: auto;
-    background-image: url('https://images7.alphacoders.com/437/437370.jpg')
-}
+ 
 
-#blog h2{
-font-size:200%;
-margin-top:5%;
-}
+ 
 #blog {
     width: 100%;
     height: 550px;
@@ -431,35 +332,46 @@ margin-top:5%;
     border-radius: 50%;
     margin-top: 5%;
 }
- 
 
- .container p {
+.container {
+    color: black;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+}
+
+.container p {
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 2%;
-    
+
     font-size: 150%;
     line-height: 1.5;
 }
-.container h2{
+
+.container h2 {
+    font-size: 250%;
     color: #08313a;
-    font-size: 35px;
+    margin-top: 5%;
     animation: fadein 3s;
     -webkit-animation: fadein 3s;
 
 }
-
+.parallax1 {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    background-image: url('https://images7.alphacoders.com/437/437370.jpg')
+}
 footer {
     height: 400px;
     background-size: contain;
     display: flex;
     flex-direction: column;
     text-align: center;
-  align-content: center;
-  align-items: center;
     width: 100%;
     justify-content: center;
-    font-size: 100%;
     background-color: #0000004a
 }
 
@@ -473,7 +385,7 @@ footer ul li a {
     display: inline-flex;
 }
 
- footer li a {
+footer li a {
     width: 40px;
     height: 40px;
     font-size: 130%;
@@ -494,15 +406,13 @@ footer li:hover {
 #contacts {
     font-size: 25px;
     text-align: center;
-    line-height:3;
-   
-    
+    line-height: 3;
+
+
     width: 100%;
 }
 
-#contacts h2 {
-    font-size: 40px;
+.footer h2 {
+    
     font-weight: 200;
 }
-
- 

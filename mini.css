@@ -69,7 +69,7 @@
         left: 0;
         background-color: white;
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.2s;
 
         position: fixed;
         transform: translate(0%, 0%);
@@ -120,7 +120,7 @@
     width: 100%;
  text-align: center;
  height: auto;
-
+transform: none;
 
  }
   .submenu-list ul{
@@ -171,7 +171,7 @@ header {
 
 #about-me h2 {
      margin-top: 5%;
-    font-size: 200%
+   
 }
 
 #about-me p {
@@ -180,8 +180,8 @@ header {
 }
 
 #button {
-    width: 25%;
-    height: 15%
+    width: 30%;
+    height: auto;
 }
 
 #button h3 {
@@ -200,7 +200,7 @@ header {
 
 #more-about-me {
     align-self: center;
-    height: 650px;
+    height: 550px;
 }
 
 #more-about-me img {
@@ -262,13 +262,14 @@ header {
 }
     
 .overlay p {
-    margin: 5%;
+    margin: 2%;
     font-size: 180%;
+    text-align: center
      
 }
  
 .button-button {
-   
+ width: 40%;  
 
 }
  #contacts {
@@ -306,7 +307,7 @@ header {
 }
 
 #blog h2{
-font-size:200%;
+ 
 margin-top:5%;
 }
 #blog {
@@ -512,37 +513,33 @@ header {
 }
 
 #about-me {
-    height: 400px ;
+    height: auto;
 }
 
 #about-me h2 {
-     margin-top: 5%;
-    font-size: 200%
-}
+     margin-top: 2%;
+ }
 
 #about-me p {
 
     font-size: 150%;
 }
 
-#button {
-    width: 25%;
-    height: 15%
-}
+ 
 
 #button h3 {
-    font-size: 120%
+    font-size: 100%
 }
 #button{
     width: 50%;
-    height: 50px;
+    height: auto;
 }
 
 .more-about-me {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    
     width: 90%;
-    height: 700px;
+    height: 800px;
     text-align: justify;
     margin: auto;
     align-items: center;
@@ -554,14 +551,15 @@ header {
 }
 
 #more-about-me img {
-    width: 50%;
+    width: 100%;
     height: auto;
     
 }
 
 #more-about-me p {
+    height: auto;
     font-size: 150%;
-    margin: 0;
+    margin-top: 10%;
     padding: 0;
     padding-right: 0;
     padding-left: 0;
@@ -574,10 +572,11 @@ header {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    padding-top: 0;
+    padding-top: 5%;
 }
 .button-button{
-    margin-top:  50px
+   width: 60%;
+    font-size: 100%
 }
 .my-works-sample {
     width: 80%;
@@ -613,15 +612,13 @@ header {
 }
 
 .overlay p {
-    margin: 5%;
-    font-size: 150%;
+    margin: 2%;
+    font-size: 130%;
+    text-align: center
      
 }
  
-.button-button {
-
-   
-}
+ 
  #contacts {
     font-size: 25px;
     text-align: center;
@@ -657,12 +654,13 @@ header {
 }
 
 #blog h2{
-font-size:200%;
+ 
 margin-top:5%;
 }
 #blog {
     width: 100%;
     height: auto;
+        margin-bottom: 5%;
 }
 
 #blog img {
