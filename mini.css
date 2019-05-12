@@ -417,7 +417,7 @@ margin-top:5%;
         left: 0;
         background-color: white;
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.2s;
 
         position: fixed;
         transform: translate(0%, 0%);
