@@ -181,7 +181,7 @@ header {
 
 #button {
     width: 30%;
-    height: auto;
+    
 }
 
 #button h3 {
@@ -200,7 +200,7 @@ header {
 
 #more-about-me {
     align-self: center;
-    height: 550px;
+    height: 600px;
 }
 
 #more-about-me img {
@@ -244,7 +244,7 @@ header {
     width: 80%;
     height: 340px;
     transition: .2s ease;
-    margin-top: -344px;
+ 
         display: flex;
     justify-content: center;
     align-items: center;
@@ -532,14 +532,14 @@ header {
 }
 #button{
     width: 50%;
-    height: auto;
+    height: 50px
 }
 
 .more-about-me {
     display: block;
     
     width: 90%;
-    height: 800px;
+    height: 900px;
     text-align: justify;
     margin: auto;
     align-items: center;
@@ -595,7 +595,7 @@ header {
     width: 80%;
     height: 340px;
     transition: .2s ease;
-    margin-top: -344px;
+ 
         display: flex;
     justify-content: center;
     align-items: center;

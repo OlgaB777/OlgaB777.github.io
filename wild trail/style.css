@@ -41,6 +41,17 @@ p {
   font-size: 130%;
   text-align: justify;
 }
+.activities h2{
+  color: green;
+}
+.box{
+  width: 95%;
+  height: 100px;
+  text-align: right
+}
+.box h2{
+  color: green;
+}
 .menu{
   display: none;
 }
@@ -89,6 +100,10 @@ p {
   height: 660px;
   color: white;
   background-color: #91b2295c;
+
+
+
+
      display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,14 +214,14 @@ ul.social-media li :hover {
   flex-direction: column;
   width: 100%;
   height: auto;
-  background-color: #E8F0E8
+ 
 }
 
 .activities-types {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 800px;
+  
   justify-content: space-around;
 }
 
@@ -224,7 +239,7 @@ ul.social-media li :hover {
 
 .description:nth-of-type(2) {
   display: flex;
-  background-color: #7CA32E;
+  background-color: #21641a;
   margin-top: -5%;
   width: 40%
 }
@@ -233,14 +248,14 @@ ul.social-media li :hover {
   display: flex;
   background-color: #21641A;
   width: 40%;
-  margin-top: -5%;
+  margin-top: 5%;
 }
 
 .description:nth-of-type(4) {
   display: flex;
   background-color: #C9DB2D;
   width: 40%;
-  margin-top: -10%;
+  margin-top: 0%;
 }
 
 .description img {
@@ -374,6 +389,8 @@ form {
   width: 100%;
   height: 520px;
   background-color: #91b2295c;
+
+
   display: flex;
   flex-direction: column;
   align-content: center;

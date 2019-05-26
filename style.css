@@ -11,7 +11,7 @@ body {
     color: white;
     width: 100%;
     height: auto;
-    background-color: white
+ 
 }
 
 .parallax {
@@ -161,7 +161,7 @@ header a:active {
     align-items: center;
     height: 300px;
     text-align: center;
-    line-height: 1.5
+    
 }
 
 #button {
@@ -208,13 +208,29 @@ header a:active {
     animation: fadein 3s;
     margin: 2%;
     -webkit-animation: fadein 3s;
+    line-height: 1.5
+}
+h2{
+      color: #08313a;
+       font-size: 250%;
+       text-align: center;
+       margin-top: 5%;
+}
+h3{
+    color: black;
+    text-align: center
+
+}
+.button-container h3{
+    color: white
 }
 
 #more-about-me {
     display: none;
     width: 100%;
-    height: 450px;
+    height: 400px;
     text-align: justify;
+        margin-top: 3%;
 }
 
 #more-about-me p {
@@ -244,30 +260,34 @@ header a:active {
 #my-works {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 850px;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
     
 }
 
 .my-works-sample {
-    width: 440px;
+       width: 540px;
     height: 340px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .my-works-sample img {
-    width: 440px;
+    width: 540px;
     height: 340px;
 }
 
 .overlay {
     position: absolute;
-    width: 440px;
+    width: 540px;
     height: 340px;
     opacity: 0;
     transition: .2s ease;
-    margin-top: -345px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -413,6 +433,8 @@ footer li:hover {
 }
 
 .footer h2 {
-    
+    color: white;
     font-weight: 200;
+    font-size: 150%;
+    margin-top: 0;
 }
